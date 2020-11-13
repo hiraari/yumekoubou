@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+/* 表示調整用CSS */
+
+.home main .visual {
+    background: url(../TOP/onsen.jpg) no-repeat center top;
+    height: 550px;
+    padding: 200px 50px 30px;
+    box-sizing: border-box;
+}
+.home main .visual p {
+    color: #FFFFFF;
+}
+.home main .visual p.catch {
+    font-size: 60px;
+}
+
+header {
+    display: flex;
+}
+header h1 {
+    margin: 25px 0 0 20px;
+}
+header nav {
+    margin: 0 0 0 auto;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited {
+    display: block;
+    padding: 30px 15px;
+    text-decoration: none;
+
+}
+header nav ul li a:hover {
+    color: #888;
+}
+span{
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+submit{
+    font-size: 50px;
+}
